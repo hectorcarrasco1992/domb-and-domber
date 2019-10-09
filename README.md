@@ -15,7 +15,7 @@ An exercise in making many kinds of DOM manipulation functions.
 * A function that takes in an image element and a string and sets that image's source to be that string.
 * A function that takes in two elements and sets the second element's class to the same class as the first.
 * A function that takes in a tag name and an id, makes an element of that type with that id, and returns it.
-* A function that takes in two strings, one representing a color and one representing an id, and sets the thing with that id to have that color for its text.
+* A function that takes in two strings, one representing a color and one representing an id, and sets the element on the dom with that id to have that color.
 
 
 # Part 2 - Using Those Functions

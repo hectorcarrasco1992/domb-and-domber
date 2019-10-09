@@ -10,7 +10,7 @@ function appendLorem(element){
 
 
 function newLi(str){
-    const newTextLocation = document.querySelector('li')
+    const newTextLocation = document.createElement('li')
     newTextLocation.innerText = str
 
     return newTextLocation
@@ -35,6 +35,18 @@ function newElementSameTag(name, id){
     newElement1.idName= id
 }
 
-function colorId(color, iD){
-    const newColor = style.color = 
+
+function ColorId(str1, str2){
+    const coloration = document.querySelector(str1)
+    coloration.style.color = str2
 }
+
+
+appendUl(newLi('yerrrrr'))
+appendUl(newLi('yerrrrr'))
+appendUl(newLi('yerrrrr'))
+
+
+appendLorem(newImage(https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif))
+appendLorem(newImage(https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif))
+

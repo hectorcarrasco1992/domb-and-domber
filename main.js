@@ -16,17 +16,20 @@ function newLi(str){
     return newTextLocation
 }
 
-function newImage(str,img){
-    const newImage1 = document.querySelector('img')
-        newImage1.src = str
+function newImage(str,img1){
+    img1.src = str
+    
 }
 
 
-function sameClassElements(element1, element2){
-    const something1 = document.querySelector(element1)
-    const something2 = document.querySelector(element2)
 
-    something2.ClassName = something1.ClassName
+
+function sameClassElements(element1, element2){
+    //const something1 = document.querySelector(element1)
+    //const something2 = document.querySelector(element2)
+    //something2.className = something1.className
+    
+    element2.className=element1.className
 }
 
 
@@ -47,6 +50,11 @@ appendUl(newLi('yerrrrr'))
 appendUl(newLi('yerrrrr'))
 
 
-appendLorem(newImage(https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif))
-appendLorem(newImage(https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif))
+// appendLorem(newImage('https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif'))
+// appendLorem(newImage('https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif'))
 
+
+ sameClassElements('.numberedItem', '#thing-2')
+ sameClassElements('.numberedItem', '#thing-c')
+
+ ColorId('#heading','lightgreen')

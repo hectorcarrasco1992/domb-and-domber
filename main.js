@@ -30,8 +30,10 @@ function sameClassElements(element1, element2){
 
 
 function newElementSameTag(name, id){
-    const newElement1 = document.createElement(name)
-    newElement1.idName= id
+    const newElement1 = document.createElement(tagName)
+    newElement1.id= id
+
+    return newElement1
 }
 
 
@@ -48,10 +50,10 @@ appendUl(newLi('yerrrrr'))
 
 
 
-// const newUrl = 'https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif'
-// const createImg = document.createElement('img')
+const pic = 'https://media.tenor.com/images/71d6911bdf294693b4e5bc0263f30e47/tenor.gif'
+ const createImg = document.createElement('img')
 
-// appendLorem(newImage(newUrl, createImg))
+ appendLorem(newImage(createImg, pic))
 
 const thing1= document.querySelector('#thing-1')
 const thing2= document.querySelector('#thing-2')
